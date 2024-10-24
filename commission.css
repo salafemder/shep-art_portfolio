@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 5%;
     background-image: url("images/background.jpeg");
+    font-family: sans-serif, 'Times New Roman', Times;
 }
 
 .main{

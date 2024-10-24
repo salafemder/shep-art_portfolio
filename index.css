@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 5%;
     background-image: url("images/background.jpeg");
+    font-family: sans-serif, 'Times New Roman', Times;
 }
 
 .main{
@@ -30,9 +31,10 @@ body{
     width: 500px;
 }
 
-.sub{
+.sub, .share{
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     gap: 10px;
     background-color: rgb(190, 190, 190);
     padding: 7px 14px 7px 14px;
@@ -42,14 +44,12 @@ body{
     color: rgb(60, 60, 60);
 }
 
-.share{
-    background-color: rgb(190, 190, 190);
-    padding: 7px;
-    border-radius: 100%;
+.share,.bell{
+    width: 20px;
 }
 
-.share-icon,.bell{
-    width: 15px;
+.share{
+    padding: 7px;
 }
 
 .profile_img{
